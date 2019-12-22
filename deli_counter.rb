@@ -1,6 +1,4 @@
 var katzDeli = []; // At the beginning of the day,
-//the deli is empty and is represented by an empty array
-//<<<<<<<<<--------------- in the instructions <<<<<<
 
 function takeANumber(katzDeli, name) {
   katzDeli.push(`${name}`);
@@ -19,12 +17,6 @@ function nowServing(katzDeli) {
   else
   return (`Currently serving ${katzDeli.shift()}.`);
 }
-
-// Build a function currentLine that returns the current line.
-// For example, if katzDeliLine is currently ["Ada", "Grace"],
-// currentLine(katzDeliLine) would return "The line is currently: 1. Ada 2. Grace".
-// If there is nobody in line, it should return "The line is currently empty."
-
 
 var line = [];
 
